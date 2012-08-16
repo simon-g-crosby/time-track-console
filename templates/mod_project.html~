@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Add Project</title>
+</head>
+<body>
+<h1>Add Project</h1>
+<form action="mod_project_post" method="post">
+<input type="text" name="project_name" value="" />
+
+<select name="project_status">
+  <option value="active">Active</option>
+  <option value="inactive">Inactive</option>
+  <option value="complete">Complete</option>
+  <option value="canceled">Canceled</option>
+</select>
+
+<br />
+<input type="submit" value="Add" />
+</form>
+</body>
+</html>

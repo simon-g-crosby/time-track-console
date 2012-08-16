@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" id="body" width="19.812cm" height="19.812cm" viewBox="0 0 1 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<title>SVG drawing</title>
+<desc>This was produced by version 4.4 of GNU libplot, a free library for exporting 2-D vector graphics.</desc>
+<rect id="background" x="0" y="0" width="1" height="1" stroke="none" fill="white"/>
+<g id="content" transform="translate(0.14062,0.10469) scale(1,-1) scale(0.000625) " xml:space="preserve" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10.433" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1" fill="none" fill-rule="evenodd" fill-opacity="1" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" text-anchor="start">
+<line x1="20" y1="0" x2="30" y2="0" stroke-width="1.8824" />
+<text transform="translate(25,2.52) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >8am</text>
+<line x1="30" y1="0" x2="1130" y2="0" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-120" x2="30" y2="-120" stroke-width="1.8824" />
+<text transform="translate(25,-117.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >10am</text>
+<line x1="30" y1="-120" x2="1130" y2="-120" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-240" x2="30" y2="-240" stroke-width="1.8824" />
+<text transform="translate(25,-237.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >12pm</text>
+<line x1="30" y1="-240" x2="1130" y2="-240" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-360" x2="30" y2="-360" stroke-width="1.8824" />
+<text transform="translate(25,-357.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >2pm</text>
+<line x1="30" y1="-360" x2="1130" y2="-360" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-480" x2="30" y2="-480" stroke-width="1.8824" />
+<text transform="translate(25,-477.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >4pm</text>
+<line x1="30" y1="-480" x2="1130" y2="-480" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-600" x2="30" y2="-600" stroke-width="1.8824" />
+<text transform="translate(25,-597.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >6pm</text>
+<line x1="30" y1="-600" x2="1130" y2="-600" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-720" x2="30" y2="-720" stroke-width="1.8824" />
+<text transform="translate(25,-717.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >8pm</text>
+<line x1="30" y1="-720" x2="1130" y2="-720" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-840" x2="30" y2="-840" stroke-width="1.8824" />
+<text transform="translate(25,-837.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >10pm</text>
+<line x1="30" y1="-840" x2="1130" y2="-840" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-960" x2="30" y2="-960" stroke-width="1.8824" />
+<text transform="translate(25,-957.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >12am</text>
+<line x1="30" y1="-960" x2="1130" y2="-960" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<rect x="150" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(155.34,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >M</text>
+<rect x="300" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(306.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >T</text>
+<rect x="450" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(454.71,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >W</text>
+<rect x="600" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(606.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >T</text>
+<rect x="750" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(756.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >F</text>
+<rect x="900" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(906.26,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >S</text>
+<rect x="1050" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(1056.3,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >S</text>
+<rect x="95" y="-437" width="130" height="90" stroke-width="1.8824" />
+<text transform="translate(142.57,-395.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="95" y="-584" width="130" height="70" stroke-width="1.8824" />
+<text transform="translate(142.57,-552.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="95" y="-623" width="130" height="33" stroke-width="1.8824" />
+<text transform="translate(143.51,-610.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Comm</text>
+<rect x="95" y="-767" width="130" height="25" stroke-width="1.8824" />
+<text transform="translate(142.57,-758.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="95" y="-844" width="130" height="56" stroke-width="1.8824" />
+<text transform="translate(142.57,-819.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="245" y="-360" width="130" height="150" stroke-width="1.8824" />
+<text transform="translate(273.9,-288.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Daily Routines</text>
+<rect x="245" y="-380" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(292.57,-373.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="245" y="-409" width="130" height="26" stroke-width="1.8824" />
+<text transform="translate(252.74,-399.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="245" y="-481" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(252.74,-477.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="245" y="-514" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(252.74,-507.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="245" y="-658" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(293.51,-651.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Comm</text>
+<rect x="245" y="-758" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(292.57,-751.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="245" y="-812" width="130" height="44" stroke-width="1.8824" />
+<text transform="translate(292.57,-793.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="245" y="-873" width="130" height="52" stroke-width="1.8824" />
+<text transform="translate(252.74,-850.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="245" y="-1004" width="130" height="123" stroke-width="1.8824" />
+<text transform="translate(292.57,-946.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="395" y="-158" width="130" height="45" stroke-width="1.8824" />
+<text transform="translate(402.74,-139.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="395" y="-311" width="130" height="40" stroke-width="1.8824" />
+<text transform="translate(402.74,-294.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="395" y="-327" width="130" height="14" stroke-width="1.8824" />
+<text transform="translate(402.74,-323.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="395" y="-376" width="130" height="23" stroke-width="1.8824" />
+<text transform="translate(402.74,-368.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="395" y="-461" width="130" height="41" stroke-width="1.8824" />
+<text transform="translate(440.08,-444.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >General</text>
+<rect x="395" y="-536" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(442.57,-526.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="395" y="-561" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(442.57,-557.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="395" y="-615" width="130" height="14" stroke-width="1.8824" />
+<text transform="translate(442.57,-611.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="395" y="-663" width="130" height="40" stroke-width="1.8824" />
+<text transform="translate(423.9,-646.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-783" width="130" height="39" stroke-width="1.8824" />
+<text transform="translate(423.9,-767.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-842" width="130" height="28" stroke-width="1.8824" />
+<text transform="translate(417.37,-825.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(446.62,-838.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="395" y="-905" width="130" height="25" stroke-width="1.8824" />
+<text transform="translate(417.37,-889.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(446.62,-903.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-179" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(567.37,-166.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(596.62,-179.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-231" width="130" height="31" stroke-width="1.8824" />
+<text transform="translate(567.37,-212.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(596.62,-226.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-265" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(567.37,-250.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(596.62,-263.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-356" width="130" height="23" stroke-width="1.8824" />
+<text transform="translate(567.37,-341.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(596.62,-355.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-375" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(562.08,-369.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="545" y="-445" width="130" height="29" stroke-width="1.8824" />
+<text transform="translate(567.37,-427.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(596.62,-441.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="545" y="-496" width="130" height="23" stroke-width="1.8824" />
+<text transform="translate(592.57,-488.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="545" y="-635" width="130" height="31" stroke-width="1.8824" />
+<text transform="translate(592.57,-623.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="545" y="-789" width="130" height="60" stroke-width="1.8824" />
+<text transform="translate(592.57,-762.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-161" width="130" height="19" stroke-width="1.8824" />
+<text transform="translate(742.57,-155.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-177" width="130" height="16" stroke-width="1.8824" />
+<text transform="translate(740.08,-172.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >General</text>
+<rect x="695" y="-204" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(702.74,-197.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Commuication Chapter</text>
+<rect x="695" y="-283" width="130" height="32" stroke-width="1.8824" />
+<text transform="translate(742.57,-270.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-356" width="130" height="25" stroke-width="1.8824" />
+<text transform="translate(742.57,-347.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-406" width="130" height="25" stroke-width="1.8824" />
+<text transform="translate(717.37,-390.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(746.62,-404.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="695" y="-434" width="130" height="16" stroke-width="1.8824" />
+<text transform="translate(717.37,-423.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(746.62,-436.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="695" y="-566" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(717.37,-552.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(746.62,-566.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="695" y="-729" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(739.15,-722.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Reading</text>
+<rect x="695" y="-729" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(723.9,-722.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="695" y="-787" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(742.57,-778.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-801" width="130" height="14" stroke-width="1.8824" />
+<text transform="translate(742.57,-797.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-840" width="130" height="22" stroke-width="1.8824" />
+<text transform="translate(717.37,-826.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(746.62,-839.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="695" y="-861" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(742.57,-854.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="695" y="-896" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(717.37,-884.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(746.62,-897.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-273" width="130" height="47" stroke-width="1.8824" />
+<text transform="translate(873.9,-253.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="845" y="-327" width="130" height="54" stroke-width="1.8824" />
+<text transform="translate(892.57,-303.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="845" y="-352" width="130" height="25" stroke-width="1.8824" />
+<text transform="translate(892.57,-343.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="845" y="-385" width="130" height="33" stroke-width="1.8824" />
+<text transform="translate(867.37,-365.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-379.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-400" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(892.57,-396.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Breaks</text>
+<rect x="845" y="-425" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(867.37,-411.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-425.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-448" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(867.37,-436.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-449.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-464" width="130" height="13" stroke-width="1.8824" />
+<text transform="translate(867.37,-454.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-468.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-505" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(867.37,-492.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-505.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-522" width="130" height="16" stroke-width="1.8824" />
+<text transform="translate(867.37,-511.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-524.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-546" width="130" height="13" stroke-width="1.8824" />
+<text transform="translate(867.37,-536.73) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-550.17) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-593" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(867.37,-580.23) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(896.62,-593.67) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+<rect x="845" y="-670" width="130" height="58" stroke-width="1.8824" />
+<text transform="translate(873.9,-644.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Daily Routines</text>
+<rect x="845" y="-898" width="130" height="227" stroke-width="1.8824" />
+<text transform="translate(894.75,-788.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Social</text>
+<rect x="845" y="-1410" width="130" height="480" stroke-width="1.8824" />
+<text transform="translate(895.68,-1174) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Sleep</text>
+<rect x="995" y="-9" width="130" height="49" stroke-width="1.8824" />
+<text transform="translate(1023.9,11.546) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Daily Routines</text>
+<rect x="995" y="-47" width="130" height="29" stroke-width="1.8824" />
+<text transform="translate(1017.4,-29.734) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Impl Distrib JStar</text>
+<text transform="translate(1046.6,-43.174) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Chap</text>
+</g>
+</svg>

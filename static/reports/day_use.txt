@@ -1,0 +1,4 @@
+ category_id | category_name | category_time_spent 
+-------------+---------------+---------------------
+(0 rows)
+

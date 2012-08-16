@@ -1,0 +1,12 @@
+$def with (addOrEdit,action,formCode)
+<html>
+<head>
+<title>$:addOrEdit Category</title>
+</head>
+<body>
+<h1>$:addOrEdit Category</h1>
+<form action="$:action" method="post">
+$:formCode.render()
+</form>
+</body>
+</html>

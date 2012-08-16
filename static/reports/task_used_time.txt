@@ -1,0 +1,118 @@
+                             task_name                              |        time         | task_time_estimate 
+--------------------------------------------------------------------+---------------------+--------------------
+ Night                                                              | 30 days 130:35:40.9 |                   
+ Rec Web                                                            | 132:00:50           |                   
+ Other Break                                                        | 71:19:15            |                   
+ Misc Tech Reading                                                  | 44:58:39            |                   
+ Explain Starlog Transforms                                         | 40:42:04            |                  5
+ TV                                                                 | 21:15:40            |                   
+ Mornings                                                           | 20:13:02            |                   
+ Dinner                                                             | 17:49:07            |                   
+ Check program with stinterpret                                     | 16:17:55            |                   
+ crud functionality + reseach sql alch                              | 12:23:58            |                   
+ Autotuning Sec                                                     | 09:09:48            |                  3
+ Tidy Up Pascal Program                                             | 08:11:00            |                   
+ add time graph                                                     | 07:59:49            |                   
+ Think                                                              | 07:09:03            |                   
+ Pre Experiment Plan/Prep/Setup                                     | 06:58:41            |                  1
+ Write Up Eager FC                                                  | 06:47:48            |                  3
+ Communication With Mark                                            | 06:38:57            |                   
+ Weekly Schedule Image (using pic)                                  | 06:35:59            |                 10
+ Add Tranformed Prog                                                | 06:30:57            |                   
+ Parallel Pattern Eval Strategies                                   | 06:07:02            |                  7
+ Eager FC Analysis                                                  | 05:47:08            |                   
+ Phone                                                              | 05:29:04            |                   
+ Reorganise Material                                                | 05:10:01            |                   
+ Improve Task Entry Combobox                                        | 05:05:59            |                   
+ Revamp Admin Organisation                                          | 04:59:59            |                  2
+ Fix Problems Mark Identified                                       | 04:35:03            |                   
+ Data Distribution/Locality Management                              | 04:24:00            |                   
+ Pascal Example                                                     | 04:12:00            |                   
+ Add Status Filters                                                 | 04:07:58            |                   
+ Jogging                                                            | 04:01:02            |                   
+ Visit Friends                                                      | 03:47:03            |                   
+ Cooking                                                            | 03:45:03            |                   
+ Walk                                                               | 03:44:59            |                   
+ Gather and Design                                                  | 03:34:59            |                   
+ Fosters Comm Sec                                                   | 03:26:59            |                  2
+ Window Size Writeup                                                | 03:14:00            |                   
+ Shopping                                                           | 03:02:54            |                   
+ Add word count graph                                               | 02:53:58            |                   
+ Misc (don't use this)                                              | 02:52:14            |                   
+ time summary SP                                                    | 02:49:24            |                   
+ HPCS Background                                                    | 02:48:02            |                   
+ #Timesheet Entry                                                   | 02:48:01            |                   
+ Audio Notes                                                        | 02:41:58            |                  7
+ Fosters Agglo Sec                                                  | 02:39:59            |                  4
+ Week Planner                                                       | 02:32:33            |                   
+ Goals/Hypothsis 2) Gather/Design                                   | 02:31:58            |                   
+ Pascal Halo Stuff                                                  | 02:24:57            |                1.5
+ create                                                             | 02:07:02            |                   
+ Writing                                                            | 02:06:40            |                   
+ Walking                                                            | 02:03:01            |                   
+ Time Block Adder Quickkeys+ Other Adjustments                      | 01:59:00            |                   
+ Jogging Tracker                                                    | 01:58:00            |                   
+ To/From Uni                                                        | 01:50:20            |                   
+ #Process Inbox                                                     | 01:50:01            |                   
+ Goals/Hypothsis 1) Initial Think                                   | 01:47:02            |                   
+ Load Data into Postgres                                            | 01:45:01            |                  8
+ Test TotD                                                          | 01:43:57            |                   
+ Time Estimates                                                     | 01:42:00            |                  3
+ Fix Basic Defects                                                  | 01:41:59            |                   
+ Other                                                              | 01:40:36            |                   
+ General Org                                                        | 01:36:59            |                   
+ Gathering Materials                                                | 01:36:58            |                   
+ Window Size Experiments                                            | 01:36:48            |                   
+ SH                                                                 | 01:36:00            |                   
+ Misc Thinking/Reading                                              | 01:31:01            |                   
+ Daily Discipline Checklist                                         | 01:29:55            |                   
+ Add Deadlines                                                      | 01:27:59            |                   
+ Cleaning/Tidying                                                   | 01:21:18            |                   
+ Linda sec                                                          | 01:18:00            |                   
+ Replace SQLA/New CRUD Forms                                        | 01:17:58            |                   
+ Added Task Entry                                                   | 01:12:01            |                   
+ Install Wiki                                                       | 01:12:01            |                  1
+ Add Issue Tickler                                                  | 01:12:00            |                   
+ Make my laptop spy on me                                           | 01:12:00            |                   
+ Listening                                                          | 01:11:02            |                   
+ Initial Thinking                                                   | 01:11:00            |                   
+ Reading                                                            | 01:09:31            |                   
+ program 3                                                          | 01:08:59            |                   
+ scroll wheel support for time block adder                          | 01:03:58            |                   
+ Create Graph Showing Throughput Comparison Between Eager and Synch | 01:03:00            |                   
+ Add Material on And/Or parallelism                                 | 00:59:00            |                   
+ Replace Redirect Templates With Redirect To Button                 | 00:58:59            |                  2
+ Add "Relative to 1" Graphs                                         | 00:57:36            |                   
+ Time Spent applet                                                  | 00:57:01            |                   
+ intro fixes                                                        | 00:57:00            |                   
+ fast forward buttons                                               | 00:57:00            |                   
+ Add Material on Parallel Datalog                                   | 00:56:00            |                   
+ Think of Some Points to Cover                                      | 00:54:00            |                   
+ Create Notation                                                    | 00:49:00            |                   
+ Listening                                                          | 00:46:58            |                   
+ Go to Lib and Enrol                                                | 00:46:11            |                   
+ Moringing Exercise                                                 | 00:42:25            |                   
+ Show number of tasks                                               | 00:38:59            |                   
+ Trying Microsoft Access                                            | 00:38:02            |                   
+ Mapping                                                            | 00:36:00            |                0.6
+ Investiagate More Compelx Issues                                   | 00:35:00            |                   
+ Decide To Buy PlantCam                                             | 00:27:59            |                   
+ Add Button To Regenerate Reports From Homepage                     | 00:26:00            |                  1
+ Reading/Exercises                                                  | 00:25:01            |                   
+ Next/Prev Crash Bug                                                | 00:23:59            |                   
+ Laundry                                                            | 00:23:59            |                   
+ Add JS Table Sorting                                               | 00:23:00            |                  1
+ Project_page_stored_proc                                           | 00:22:59            |                   
+ Adding draft to doc                                                | 00:21:01            |                   
+ Design/Gather                                                      | 00:19:59            |                   
+ Playing with plantcam                                              | 00:14:51            |                   
+ Fix Wrong Redirect After Add Project                               | 00:14:00            |                   
+ Using the Facebook                                                 | 00:12:01            |                   
+ Fix Word Count Graph                                               | 00:12:00            |                  1
+ Reading                                                            | 00:11:00            |                   
+ Add Paragraph or two on cloud computing                            | 00:08:00            |                   
+ Backup Work                                                        | 00:07:00            |                   
+ Strength                                                           | 00:05:01            |                   
+ To Rotorua                                                         | -01:39:13           |                   
+(114 rows)
+

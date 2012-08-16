@@ -1,0 +1,72 @@
+$def with (project,projectTasks,pwp,showStatuses)
+<html>
+<head>
+<script src="static/sorttable.js"></script>
+<title>$:project.project_name</title>
+</head>
+<body>
+<h1>$:project.project_name</h1>
+
+<ul>
+
+<li><a href="view_category?category_id=$:project.category_id&&show_active=on">Up</a></li>
+<li><a href="edit_project?project_id=$:project.project_id">Edit Project</a></li>
+<li><a href="add_task?project_id=$:project.project_id">Add Task</a></li>
+$if pwp != None:
+    <li>Notebook: <a href="http://localhost:8090/$pwp">$pwp</a></li>
+</ul>
+<br />
+
+<form action="view_project" method="get">
+Show:<br />
+<input type="checkbox" name="show_active" 
+$if 'show_active' in showStatuses:
+       checked
+  /> Active &nbsp; &nbsp; 
+<input type="checkbox" name="show_inactive"
+$if 'show_inactive' in showStatuses:
+       checked
+ /> Inactive &nbsp; &nbsp;
+<input type="checkbox" name="show_complete"
+$if 'show_complete' in showStatuses:
+       checked
+ /> Complete &nbsp; &nbsp;
+<input type="checkbox" name="show_canceled" 
+$if 'show_canceled' in showStatuses:
+       checked
+/> Canceled &nbsp; &nbsp;
+<input type="hidden" name="project_id" value="$:project.project_id" />
+<input type="submit" value="Refresh" />
+</form>
+
+<br />
+
+<table border=1 class="sortable">
+    <tr>
+      <th>Task</th>
+      <th>Completion Status</th>
+      <th>Spent Time</th>
+      <th>Estimated Time</th>
+
+    </tr>
+$for i in projectTasks:
+    <tr>
+    <td> 
+    $if i.task_status == 'active':
+    	<b>
+    <a href="edit_task?task_id=$i.task_id&show_active=on">
+      $i.task_name
+    </a>
+    $if i.task_status == 'active':
+    	</b>
+     </td>
+    <td> $i.task_status </td>
+    <td> $i.task_time_spent </td>
+    <td> $i.task_time_estimate </td>
+
+    </tr>
+</table>
+
+
+</body>
+</html>

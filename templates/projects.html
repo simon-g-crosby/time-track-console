@@ -1,0 +1,23 @@
+$def with (unfinishedProjects)
+<html>
+<head>
+  <title>Projects</title>
+</head>
+<body>
+  <h1>Projects</h1>
+  <a href="add_project">Add Project</a>
+
+  <h2>Unfinished Projects</h2>
+
+  <table border=1>
+    <tr>
+      <th>Task</th>
+    </tr>
+$for i in unfinishedProjects:
+    <tr>
+      <td> <a href="view_project?project_id=$i.project_id"> $i.project_name </a> </td>
+    </tr>
+</table>
+
+</body>
+</html>

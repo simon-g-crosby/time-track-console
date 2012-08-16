@@ -1,0 +1,81 @@
+$def with (category,categoryProjects,showStatuses)
+<html>
+<head>
+<link href="static/row_colors.css" rel="stylesheet" type="text/css">
+<script src="static/sorttable.js"></script>
+<title>$:category.category_name</title>
+</head>
+<body>
+<h1>$:category.category_name</h1>
+
+<ul>
+<li>
+ <a href="categories">Up</a>
+</li>
+<li>
+ <a href="edit_category?category_id=$:category.category_id">Edit Category</a>
+</li>
+<li>
+ <a href="add_project?category_id=$:category.category_id">Add Project</a>
+</li>
+</ul>
+<br />
+<br />
+
+
+<form action="view_category" method="get">
+Show:<br />
+<input type="checkbox" name="show_active" 
+$if 'show_active' in showStatuses:
+       checked
+  /> Active &nbsp; &nbsp; 
+<input type="checkbox" name="show_inactive"
+$if 'show_inactive' in showStatuses:
+       checked
+ /> Inactive &nbsp; &nbsp;
+<input type="checkbox" name="show_complete"
+$if 'show_complete' in showStatuses:
+       checked
+ /> Complete &nbsp; &nbsp;
+<input type="checkbox" name="show_canceled" 
+$if 'show_canceled' in showStatuses:
+       checked
+/> Canceled &nbsp; &nbsp;
+<input type="hidden" name="category_id" value="$:category.category_id" />
+<input type="submit" value="Refresh" />
+</form>
+
+<table border=1 class="sortable"> 
+    <tr>
+      <th>Project</th>
+      <th>Completion Status</th>
+      <th>Spent Time</th>
+      <th>Estimated Time</th>
+      <th>Active<br />Tasks</th>
+      <th>On Hold<br />Tasks</th>
+      <th>Due Date</th>
+    </tr>
+$for i in categoryProjects:
+    <tr class="$i.lateness">
+    <td> 
+    $if i.project_status == 'active':
+    	<b>
+    <a href="view_project?project_id=$i.project_id&show_active=on">
+      $i.project_name
+    </a>
+    &nbsp; &nbsp;
+    $if i.project_status == 'active':
+    	</b>
+     </td>
+    <td> $i.project_status </td>
+    <td> $i.project_time_spent </td>
+    <td> $i.project_time_estimate </td>
+    <td> $i.active_task_count </td>
+    <td> $i.inactive_task_count </td>
+    <td> $i.due_date </td>
+    </tr>
+</table>
+
+
+</body>
+</html>

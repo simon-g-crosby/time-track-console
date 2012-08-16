@@ -1,0 +1,40 @@
+$def with (issue,nextIssueUrl)
+<h1>Inbox</h1>
+
+<table border="1">
+<tr>
+<td>Time Added: &nbsp; &nbsp;</td>
+<td>
+$issue.issue_timestamp
+</td>
+
+<tr>
+<td>
+Description:
+&nbsp;&nbsp;
+</td>
+<td>
+$issue.issue_text
+</td>
+</tr>
+<tr>
+<td>
+Delt With:
+&nbsp;&nbsp;
+</td>
+<td>
+<form action="issues" method="post">
+<input type="checkbox" name="delt_with" 
+$if issue.issue_deltWith:
+       checked
+/>
+<input type="hidden" name="issue_id" value="$issue.issue_id" />
+<input type="submit" value="Change">
+</form>
+</td>
+</tr>
+</table>
+
+<br />
+
+<a href="$nextIssueUrl">Next Issue</a>

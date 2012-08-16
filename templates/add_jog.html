@@ -1,0 +1,61 @@
+$def with (course_options,date)
+<html>
+<head>
+  <title>Add Jog</title>
+</head>
+<body>
+<h1>Add Jog</h1>
+<form action='add_jog' method='post'>
+<table>
+<tr>
+<td>
+Date: &nbsp;
+</td>
+<td>
+<input name="date" value="$date">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Hours: &nbsp;
+</td>
+<td>
+<input name="time_hours" value="0">
+</td>
+</tr>
+
+<tr>
+<td>
+Minutes: &nbsp;
+</td>
+<td>
+<input name="time_mins" value="0">
+</td>
+</tr>
+
+<tr>
+<td>
+Seconds: &nbsp;
+</td>
+<td>
+<input name="time_secs" value="0">
+</td>
+</tr>
+
+<tr>
+<td>
+Course: &nbsp;
+</td>
+<td>
+<select name='course_name'>
+$for val, text in course_options.iteritems():
+  <option value="$val">$text</option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="Add Jog" />
+</form>
+</html>

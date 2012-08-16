@@ -1,0 +1,14 @@
+$def with (addOrMod,cat_id)
+<html>
+<head>
+<title>$:addOrMod Category</title>
+</head>
+<body>
+<h1>$:addOrMod Category</h1>
+<form action="mod_category_post" method="post">
+<input type="text" name="cat_name" value="" />
+<input type="hidden" name="cat_id" value="$:cat_id" />
+<br />
+<input type="submit" value="$:addOrMod" />
+</body>
+</html>

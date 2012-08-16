@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" id="body" width="19.812cm" height="19.812cm" viewBox="0 0 1 1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<title>SVG drawing</title>
+<desc>This was produced by version 4.4 of GNU libplot, a free library for exporting 2-D vector graphics.</desc>
+<rect id="background" x="0" y="0" width="1" height="1" stroke="none" fill="white"/>
+<g id="content" transform="translate(0.14062,0.29844) scale(1,-1) scale(0.000625) " xml:space="preserve" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10.433" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1" fill="none" fill-rule="evenodd" fill-opacity="1" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" text-anchor="start">
+<line x1="20" y1="0" x2="30" y2="0" stroke-width="1.8824" />
+<text transform="translate(25,2.52) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >8am</text>
+<line x1="30" y1="0" x2="1130" y2="0" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-120" x2="30" y2="-120" stroke-width="1.8824" />
+<text transform="translate(25,-117.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >10am</text>
+<line x1="30" y1="-120" x2="1130" y2="-120" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-240" x2="30" y2="-240" stroke-width="1.8824" />
+<text transform="translate(25,-237.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >12pm</text>
+<line x1="30" y1="-240" x2="1130" y2="-240" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-360" x2="30" y2="-360" stroke-width="1.8824" />
+<text transform="translate(25,-357.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >2pm</text>
+<line x1="30" y1="-360" x2="1130" y2="-360" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-480" x2="30" y2="-480" stroke-width="1.8824" />
+<text transform="translate(25,-477.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >4pm</text>
+<line x1="30" y1="-480" x2="1130" y2="-480" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-600" x2="30" y2="-600" stroke-width="1.8824" />
+<text transform="translate(25,-597.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >6pm</text>
+<line x1="30" y1="-600" x2="1130" y2="-600" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-720" x2="30" y2="-720" stroke-width="1.8824" />
+<text transform="translate(25,-717.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >8pm</text>
+<line x1="30" y1="-720" x2="1130" y2="-720" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-840" x2="30" y2="-840" stroke-width="1.8824" />
+<text transform="translate(25,-837.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >10pm</text>
+<line x1="30" y1="-840" x2="1130" y2="-840" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<line x1="20" y1="-960" x2="30" y2="-960" stroke-width="1.8824" />
+<text transform="translate(25,-957.48) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >12am</text>
+<line x1="30" y1="-960" x2="1130" y2="-960" stroke-width="1.8824" stroke-dasharray="2.5, 7.5"/>
+<rect x="150" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(155.34,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >M</text>
+<rect x="300" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(306.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >T</text>
+<rect x="450" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(454.71,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >W</text>
+<rect x="600" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(606.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >T</text>
+<rect x="750" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(756.58,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >F</text>
+<rect x="900" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(906.26,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >S</text>
+<rect x="1050" y="115" width="20" height="30" stroke-width="1.8824" />
+<text transform="translate(1056.3,126.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >S</text>
+<rect x="95" y="-74" width="130" height="94" stroke-width="1.8824" />
+<text transform="translate(144.44,-30.954) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Travel</text>
+<rect x="95" y="-204" width="130" height="19" stroke-width="1.8824" />
+<text transform="translate(144.44,-198.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Travel</text>
+<rect x="95" y="-255" width="130" height="33" stroke-width="1.8824" />
+<text transform="translate(123.9,-242.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="95" y="-255" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(139.77,-249.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="95" y="-313" width="130" height="49" stroke-width="1.8824" />
+<text transform="translate(112.08,-292.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="95" y="-439" width="130" height="118" stroke-width="1.8824" />
+<text transform="translate(126.08,-383.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Related Work</text>
+<rect x="95" y="-468" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(123.9,-459.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="95" y="-528" width="130" height="45" stroke-width="1.8824" />
+<text transform="translate(112.08,-509.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="95" y="-600" width="130" height="60" stroke-width="1.8824" />
+<text transform="translate(112.08,-573.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="95" y="-654" width="130" height="48" stroke-width="1.8824" />
+<text transform="translate(112.08,-633.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="95" y="-843" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(139.77,-837.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="95" y="-1098" width="130" height="252" stroke-width="1.8824" />
+<text transform="translate(139.77,-975.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-240" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(289.77,-233.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-531" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(289.77,-525.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-573" width="130" height="39" stroke-width="1.8824" />
+<text transform="translate(262.08,-557.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="245" y="-630" width="130" height="57" stroke-width="1.8824" />
+<text transform="translate(273.9,-605.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="245" y="-699" width="130" height="51" stroke-width="1.8824" />
+<text transform="translate(262.08,-677.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="245" y="-726" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(273.9,-716.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="245" y="-819" width="130" height="36" stroke-width="1.8824" />
+<text transform="translate(289.77,-804.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-885" width="130" height="66" stroke-width="1.8824" />
+<text transform="translate(289.77,-855.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-945" width="130" height="51" stroke-width="1.8824" />
+<text transform="translate(289.77,-923.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="245" y="-984" width="130" height="39" stroke-width="1.8824" />
+<text transform="translate(289.77,-968.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="395" y="372" width="130" height="81" stroke-width="1.8824" />
+<text transform="translate(423.9,408.55) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="291" width="130" height="81" stroke-width="1.8824" />
+<text transform="translate(439.77,327.55) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="395" y="-315" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(412.08,-306.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="395" y="-345" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(423.9,-335.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-408" width="130" height="39" stroke-width="1.8824" />
+<text transform="translate(423.9,-392.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-426" width="130" height="18" stroke-width="1.8824" />
+<text transform="translate(412.08,-407.51) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(424.05,-420.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(440.71,-434.39) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="395" y="-444" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(423.9,-440.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-486" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(423.9,-477.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="395" y="-606" width="130" height="96" stroke-width="1.8824" />
+<text transform="translate(412.08,-548.51) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(424.05,-561.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(440.71,-575.39) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="395" y="-666" width="130" height="30" stroke-width="1.8824" />
+<text transform="translate(412.08,-654.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="395" y="-783" width="130" height="57" stroke-width="1.8824" />
+<text transform="translate(412.08,-745.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(424.05,-758.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(440.71,-771.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="395" y="-973" width="130" height="70" stroke-width="1.8824" />
+<text transform="translate(412.08,-941.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="545" y="411" width="130" height="24" stroke-width="1.8824" />
+<text transform="translate(589.77,419.05) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="545" y="-279" width="130" height="48" stroke-width="1.8824" />
+<text transform="translate(589.77,-258.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="545" y="-306" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(562.08,-283.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-296.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-309.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-399" width="130" height="93" stroke-width="1.8824" />
+<text transform="translate(589.77,-356.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="545" y="-420" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(562.08,-400.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-413.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-426.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-489" width="130" height="45" stroke-width="1.8824" />
+<text transform="translate(562.08,-457.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-470.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-483.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-528" width="130" height="39" stroke-width="1.8824" />
+<text transform="translate(562.08,-499.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-512.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-525.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-567" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(562.08,-550.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-563.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-576.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-582" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(562.08,-578.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="545" y="-615" width="130" height="33" stroke-width="1.8824" />
+<text transform="translate(562.08,-589.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(574.05,-602.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(590.71,-615.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="545" y="-792" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(589.77,-782.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="545" y="-828" width="130" height="36" stroke-width="1.8824" />
+<text transform="translate(562.08,-813.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="545" y="-879" width="130" height="45" stroke-width="1.8824" />
+<text transform="translate(562.08,-860.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="545" y="-1083" width="130" height="201" stroke-width="1.8824" />
+<text transform="translate(573.9,-986.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="695" y="344" width="130" height="13" stroke-width="1.8824" />
+<text transform="translate(739.77,346.55) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="695" y="-366" width="130" height="105" stroke-width="1.8824" />
+<text transform="translate(723.9,-317.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="695" y="-489" width="130" height="30" stroke-width="1.8824" />
+<text transform="translate(739.77,-477.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="695" y="-510" width="130" height="21" stroke-width="1.8824" />
+<text transform="translate(712.08,-490.01) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Eagar Flow Control</text>
+<text transform="translate(724.05,-503.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Experiments +</text>
+<text transform="translate(740.71,-516.89) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Writeup</text>
+<rect x="695" y="-537" width="130" height="27" stroke-width="1.8824" />
+<text transform="translate(723.9,-527.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="695" y="-603" width="130" height="45" stroke-width="1.8824" />
+<text transform="translate(723.9,-584.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Time Manager</text>
+<rect x="695" y="-618" width="130" height="15" stroke-width="1.8824" />
+<text transform="translate(712.08,-614.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+<rect x="695" y="-639" width="130" height="19" stroke-width="1.8824" />
+<text transform="translate(726.08,-633.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Related Work</text>
+<rect x="695" y="-762" width="130" height="51" stroke-width="1.8824" />
+<text transform="translate(739.77,-740.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="695" y="-817" width="130" height="20" stroke-width="1.8824" />
+<text transform="translate(739.77,-810.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="695" y="-852" width="130" height="35" stroke-width="1.8824" />
+<text transform="translate(726.08,-838.45) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Related Work</text>
+<rect x="695" y="-888" width="130" height="14" stroke-width="1.8824" />
+<text transform="translate(739.77,-884.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Web/TV</text>
+<rect x="695" y="-959" width="130" height="46" stroke-width="1.8824" />
+<text transform="translate(726.08,-939.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Related Work</text>
+<rect x="995" y="-192" width="130" height="14" stroke-width="1.8824" />
+<text transform="translate(1012.1,-188.95) scale(1,-1) scale(0.56) " font-family="Helvetica,sans-serif" font-size="20px" stroke="none" fill="black" >Misc Tech Reading</text>
+</g>
+</svg>

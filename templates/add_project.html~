@@ -1,0 +1,12 @@
+$def with (formCode)
+<html>
+<head>
+<title>Add Project</title>
+</head>
+<body>
+<h1>Add Project</h1>
+<form action="mod_project_post" method="post">
+$:formCode.render()
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+import urllib
+
+def redirectTo(url, get_parameters={}):
+    redirect_to_url = url
+    if len(get_parameters) > 0:
+        redirect_to_url += "?" + urllib.urlencode(get_parameters)
+    
+    return """<html>
+<head>
+<meta http-equiv="Refresh" content="0;url=%s" />
+<title></title>
+</head>
+<body>
+</body>
+</html>
+""" % redirect_to_url
+

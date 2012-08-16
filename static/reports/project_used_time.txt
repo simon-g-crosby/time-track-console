@@ -1,0 +1,42 @@
+               project_name               |        time         
+------------------------------------------+---------------------
+ Sleep                                    | 30 days 130:35:40.9
+ Breaks                                   | 228:20:44
+ Impl Distrib JStar Chap                  | 86:00:58
+ Time Manager                             | 76:33:52
+ Misc Tech Reading                        | 44:58:39
+ Daily Routines                           | 41:05:03
+ Related Work                             | 34:29:34
+ Eagar Flow Control Experiments + Writeup | 27:07:02
+ General                                  | 09:31:11
+ Life Chap: Show Transformations          | 06:30:57
+ #MGMT                                    | 06:15:01
+ Introduction                             | 05:38:00
+ Chores                                   | 05:30:20
+ Comm                                     | 05:29:04
+ Commuication Chapter                     | 04:35:03
+ Jogging                                  | 04:01:02
+ Social                                   | 03:59:04
+ Conclusions Draft                        | 03:34:59
+ C470 Req a Sample                        | 02:20:33
+ Incorporate Mark's RW Suggestions        | 02:16:59
+ Create 500 Series printout               | 02:07:02
+ Walking                                  | 02:03:01
+ Typing of The Dead                       | 01:43:57
+ Stanford DB Course                       | 01:36:58
+ Reading                                  | 01:36:00
+ C5?? Wedding                             | 01:11:59
+ Project Euler                            | 01:08:59
+ Compare Eager and Rendez FC              | 01:03:00
+ Incorporate Marks Intro Fixes            | 00:57:00
+ JStar Chapter                            | 00:54:00
+ Create Tuple Distrib for Pascal          | 00:49:00
+ Enrollment                               | 00:46:11
+ Morning Ex                               | 00:42:25
+ Future Work Draft                        | 00:19:59
+ Travel                                   | 00:11:07
+ C506 Fight                               | 00:11:00
+ Backup Work                              | 00:07:00
+ Strength                                 | 00:05:01
+(38 rows)
+

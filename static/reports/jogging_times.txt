@@ -1,0 +1,9 @@
+                      jogging_course_name                      | run_id |  run_date  | run_time | distance | run_speed 
+---------------------------------------------------------------+--------+------------+----------+----------+-----------
+ old taupo rd (malfory rd - lake rd return)                    |      1 | 2011-07-18 | 00:39:09 |      4.5 |      6.90
+ old taupo rd (malfory rd - lake rd return)                    |      4 | 2011-07-21 | 00:36:43 |      4.5 |      7.35
+ acacia grove -> woodcock -> greenvale loop -> windmill return |      5 | 2011-07-20 | 00:30:58 |     3.74 |      7.25
+ acacia to windmill end loop                                   |      6 | 2011-08-03 | 00:44:02 |    5.896 |      8.03
+ acacia to windmill end loop                                   |      7 | 2011-08-03 | 00:41:18 |    5.896 |      8.57
+(5 rows)
+

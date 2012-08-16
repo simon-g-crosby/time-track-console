@@ -1,0 +1,22 @@
+$def with (unfinishedCategories)
+<html>
+<head>
+  <title>Categories</title>
+</head>
+<body>
+  <h1>Categories</h1>
+  <a href="add_category">Add Category</a> 
+  <br />
+  <table border=1>
+    <tr>
+      <th>Project</th>
+    </tr>
+$for i in unfinishedCategories:
+    <tr>
+    <td> <a href="view_category?category_id=$i.category_id"> $i.category_name </a> </td>
+    </tr>
+</table>
+
+
+</body>
+</html>

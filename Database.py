@@ -1,0 +1,617 @@
+
+import psycopg2
+from sqlalchemy import *
+from sqlalchemy.orm import mapper
+from sqlalchemy.orm import sessionmaker, scoped_session
+
+
+class Category(object):
+    def __init__(self):
+        self.category_id = None
+        self.category_name = None
+        self.category_status = None
+
+    def getId(self):
+        return self.category_id
+
+    def getName(self):
+        return self.category_name
+
+    def getTableName(self):
+        return "category"
+
+    def getParentId(self):
+        return None
+
+    def __repr__(self):
+        return "<Category('%s','%s', '%s')>" % (self.category_id,
+                                                self.category_name,
+                                                self.category_status,
+                                                self.category_id)
+
+
+class Project(object):
+    def __init__(self):
+        self.project_id = None
+        self.project_name = None
+        self.project_status = None
+        self.category_id = None
+        
+    def getId(self):
+        return self.project_id
+
+    def getName(self):
+        return self.project_name
+
+    def getIdNamePair(self):
+        return (self.project_id, self.project_name)
+
+    def getTableName(self):
+        return "project"
+
+    def getParentId(self):
+        return self.category_id
+
+    def __repr__(self):
+        return "<Project('%s','%s', '%s', '%s')>" % (self.project_id,
+                                                     self.project_name,
+                                                     self.project_status,
+                                                     self.project_id)
+
+
+
+def getProject(projectId):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = """
+select
+ project_id,
+ project_name,
+ project_status,
+ category_id
+from
+ project_page_table
+where 
+ project_id = %s
+;
+"""
+
+    cur.execute(q,(projectId,))
+    result = cur.fetchone()
+    conn.commit()
+    cur.close()
+    conn.close()
+    
+    p = Project()
+    p.project_id     = result[0]
+    p.project_name   = result[1]
+    p.project_status = result[2]
+    p.category_id    = result[3]
+    return p
+        
+
+class Task(object):    
+    def __init__(self):
+        self.task_id = None
+        self.task_name = None
+        self.task_status = None
+        self.project_id = None
+
+    def getId(self):
+        return self.task_id
+
+    def getName(self):
+        return self.task_name
+
+    def getTableName(self):
+        return "task"
+
+    def getParentId(self):
+        return self.project_id
+
+
+    def __repr__(self):
+        return "<Task('%s','%s', '%s', '%s')>" % (self.task_id,
+                                                  self.task_name,
+                                                  self.task_status,
+                                                  self.project_id)
+
+class TaskTimeEst(object):
+    def __init__(self):
+        self.task_id = None
+        self.task_time_estimate  = None
+
+class ProjectTimeEst(object):
+    def __init__(self):
+        self.project_id = None
+        self.project_time_estimate  = None
+
+
+class ProjectWikiPage(object):
+    def __init__(self):
+        self.project_id = None
+        self.project_wiki_page  = None
+
+    
+
+
+class CategoryPageTable:
+      def __init__(self,
+                   project_id,
+                   project_name,
+                   project_status,
+                   category_id,
+                   project_time_spent,
+                   project_time_estimate,
+                   active_task_count,
+                   inactive_task_count,
+                   due_date,
+                   lateness):
+          self.project_id = project_id
+          self.project_name = project_name
+          self.project_status = project_status
+          self.category_id = category_id
+          self.project_time_spent = project_time_spent
+          self.project_time_estimate = project_time_estimate
+          self.active_task_count = active_task_count
+          self.inactive_task_count = inactive_task_count
+          self.due_date = due_date
+          self.lateness = lateness
+          
+def loadCategoryPageData(category_id, show_statuses):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+
+    isActiveSql = "false"
+    isInactiveSql = "false"
+    isCompleteSql = "false"
+    isCanceledSql = "false"
+
+    if 'show_active' in show_statuses:
+        isActiveSql = "project_status = 'active'"
+    if 'show_inactive' in show_statuses:
+        isInactiveSql = "project_status = 'inactive'"
+    if 'show_complete' in show_statuses:
+        isCompleteSql = "project_status = 'complete'"
+    if 'show_canceled' in show_statuses:
+        isCanceledSql = "project_status = 'canceled'"
+        
+    statusSql = "( %s or %s or %s or %s )" % (isActiveSql,
+                                              isInactiveSql,
+                                              isCompleteSql,
+                                              isCanceledSql)
+                                              
+    q = """
+select 
+ p.project_id,
+ p.project_name,
+ p.project_status,
+ p.category_id,
+ p.project_time_spent,
+ p.project_time_estimate,
+ coalesce(active_task_count,0) as active_task_count,
+ coalesce(inactive_task_count,0) as inactive_task_count,
+ coalesce(project_due_date::text,'') as project_due_date,
+ ( case
+   when days_until_due_date is null then 'normal'
+   when days_until_due_date < 1 then 'late'
+   when days_until_due_date < 4 then 'close_to_deadline'
+   else 'normal'
+   end
+ ) as lateness
+ 
+from
+ project_page_table p 
+ LEFT OUTER JOIN
+ (  
+    select project_id, count(*) as active_task_count
+    from task t
+    where task_status = 'active'
+    group by t.project_id
+ ) as active_task_count
+ using(project_id)
+
+
+ LEFT OUTER JOIN
+ (  
+    select project_id, count(*) as inactive_task_count
+    from task t
+    where task_status = 'inactive'
+    group by t.project_id
+ ) as inactive_task_count
+ using(project_id)
+
+ LEFT OUTER JOIN
+ (  
+    select
+       project_id, 
+       project_due_date,
+       project_due_date - now()::date as days_until_due_date
+    from projects_due_dates
+ ) as project_due
+ using(project_id)
+
+
+
+where 
+ category_id = %s and
+
+"""
+    q = q + statusSql
+
+    q = q + " ORDER BY project_name ; "
+    print q
+
+    cur.execute(q,(category_id,))
+    result = cur.fetchall()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    returnObjs = []
+    for row in result:
+        returnObjs.append(CategoryPageTable(*row))
+        
+    return returnObjs
+
+
+class Issue:
+    def __init__(self, issue_id, issue_timestamp, issue_text, issue_deltWith ):
+        self.issue_id = issue_id
+        self.issue_timestamp = issue_timestamp
+        self.issue_text = issue_text
+        self.issue_deltWith = issue_deltWith
+
+def loadNextUndeltwithIssueAfter(timestamp,issue_id):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = """
+select
+  issue_id,
+  issue_added_timestamp::text,
+  issue_description,
+  issue_delt_with
+from
+ issues
+where 
+ issue_delt_with = false and
+ issue_added_timestamp < now() and
+ (
+   issue_added_timestamp > %s::timestamp 
+   or
+   ( issue_added_timestamp = %s::timestamp
+     and 
+     issue_id > %s
+   )
+ )
+order by issue_added_timestamp,issue_id
+LIMIT 1
+;
+"""
+    cur.execute(q,(timestamp,timestamp,issue_id))
+    result = cur.fetchone()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    if result != None:
+        issue_id = result[0]
+        added_timestamp = result[1]
+        description = result[2]
+        delt_with = result[3]
+        return Issue(issue_id, added_timestamp, description, delt_with)
+    else:
+        return None
+
+def loadFirstUndeltwithIssue():
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = """
+select
+  issue_id,
+  issue_added_timestamp::text,
+  issue_description,
+  issue_delt_with
+from
+ issues
+where 
+ issue_delt_with = false and
+ issue_added_timestamp < now()
+order by issue_added_timestamp,issue_id
+LIMIT 1
+;
+"""
+    cur.execute(q)
+    result = cur.fetchone()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    if result != None:
+        issue_id = result[0]
+        added_timestamp = result[1]
+        description = result[2]
+        delt_with = result[3]
+        return Issue(issue_id, added_timestamp, description, delt_with)
+    else:
+        return None
+
+def fetchIssue(issue_id):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = """
+select
+  issue_id,
+  issue_added_timestamp::text,
+  issue_description,
+  issue_delt_with
+from
+ issues
+where 
+issue_id = %s
+LIMIT 1
+;
+"""
+    cur.execute(q,(issue_id,))
+    result = cur.fetchone()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    if result != None:
+        issue_id = result[0]
+        added_timestamp = result[1]
+        description = result[2]
+        delt_with = result[3]
+        return Issue(issue_id, added_timestamp, description, delt_with)
+    else:
+        return None
+        
+
+def issueSetDeltWith(issue_id, isDeltWith):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = "update issues set issue_delt_with = %s where issue_id = %s;"
+    cur.execute(q,(isDeltWith,issue_id))
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def issuePostpone(issue_id, num_days_to_delay):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q = "update issues set issue_added_timestamp = issue_added_timestamp + %s::interval where issue_id = %s;"
+    cur.execute(q,(num_days_to_delay + " days",issue_id))
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+
+
+class TaskPageTable:
+      def __init__(self,
+                   task_id,
+                   task_name,
+                   task_status,
+                   project_id,
+                   task_time_spent,
+                   task_time_estimate ):          
+          self.task_id = task_id
+          self.task_name = task_name
+          self.task_status = task_status
+          self.project_id = project_id
+          self.task_time_spent = task_time_spent
+          self.task_time_estimate = task_time_estimate           
+
+
+def loadProjectPageData(project_id, show_statuses):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    isActiveSql = "false"
+    isInactiveSql = "false"
+    isCompleteSql = "false"
+    isCanceledSql = "false"
+
+    if 'show_active' in show_statuses:
+        isActiveSql = "task_status = 'active'"
+    if 'show_inactive' in show_statuses:
+        isInactiveSql = "task_status = 'inactive'"
+    if 'show_complete' in show_statuses:
+        isCompleteSql = "task_status = 'complete'"
+    if 'show_canceled' in show_statuses:
+        isCanceledSql = "task_status = 'canceled'"
+        
+    statusSql = "( %s or %s or %s or %s )" % (isActiveSql,
+                                              isInactiveSql,
+                                              isCompleteSql,
+                                              isCanceledSql)
+
+    q = """
+select
+ task_id,
+ task_name,
+ task_status,
+ project_id,
+ task_time_spent,
+ task_time_estimate
+from
+ task_page_table
+where 
+ project_id = %s and
+
+"""
+    q = q + statusSql + ";"
+
+    cur.execute(q,(project_id,))
+    result = cur.fetchall()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    returnObjs = []
+    for row in result:
+        returnObjs.append(TaskPageTable(*row))
+        
+    return returnObjs
+
+
+def get_jogging_course_list():
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+    q = "select jogging_course_name from jogging_courses;"
+    cur.execute(q)
+    result = cur.fetchall()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    # flatten
+    courseList = [i[0] for i in result]
+
+    return courseList
+
+def add_jogging_run(run_date, run_time_seconds, course_name):
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+    q = "insert into jogging_runs (run_date,run_time,jogging_course_name)"
+    q += "values (%s,%s,%s);"
+    cur.execute(q,(run_date, str(run_time_seconds) + " seconds", course_name))
+    conn.commit()
+    cur.close()
+    conn.close()
+
+def getProjectDueDate(project_id):
+    q = "select project_due_date from projects_due_dates "
+    q += "where project_id = %s"
+    
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()    
+    cur.execute(q,(project_id,))
+    result = cur.fetchall()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    if len(result) > 0:
+        return result[0][0].isoformat()
+    else:
+        return ""
+
+def setProjectDueDate(project_id, due_date):    
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()
+
+    q1 = "delete from projects_due_dates where project_id = %s"
+    cur.execute(q1,(project_id,))
+
+    if due_date != "":
+        q2 = "insert into projects_due_dates (project_due_date, project_id)"
+        q2 += "values (%s::date, %s)"
+        cur.execute(q2,(due_date,project_id))
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+class TimeBlock:
+    def __init__(self,
+                 time_block_id,
+                 category_name,
+                 project_name,
+                 task_name,
+                 start_time,
+                 end_time,
+                 length):
+        self.time_block_id = time_block_id 
+        self.category_name = category_name,
+        self.project_name = project_name,
+        self.task_name = task_name
+        self.start_time = start_time
+        self.end_time = end_time
+        self.length = length
+
+def get_date_timeblocks(tbDate):
+    q = ""
+    q += "select"
+    q += " time_block_id,"
+    q += " category_name,"
+    q += " project_name,"
+    q += " task_name,"
+    q += " start_time::text as start_time,"
+    q += " end_time::text as end_time,"
+    q += " end_time-start_time as length "
+    q += "from"
+    q += " time_blocks	"
+    q += " join 	"
+    q += " task 	"
+    q += " using(task_id) "
+    q += " join 	"
+    q += " project 	"
+    q += " using(project_id) "
+    q += " join 	"
+    q += " category 	"
+    q += " using(category_id) "
+    q += "where "
+    q += " start_time::date = %s::date "
+    q += "order by"
+    q += "  start_time"
+
+
+    conn = psycopg2.connect("dbname=time_management user=simon")
+    cur = conn.cursor()    
+    cur.execute(q,(tbDate,))
+    result = cur.fetchall()
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    timeBlocks = []
+    
+    for row in result:
+        print row
+        tb_id = row[0]
+        c_name = row[1]
+        p_name = row[2]
+        t_name = row[3]
+        s_time = row[4]
+        e_time = row[5]
+        length = row[6]
+
+        tb = TimeBlock(tb_id,c_name,p_name,t_name,s_time,e_time,length)
+
+        timeBlocks.append(tb)
+
+    return timeBlocks
+
+
+
+engine = create_engine('postgresql://simon:dd44yi@localhost:5432/time_management', echo=True)
+meta = MetaData()
+meta.bind = engine
+
+# Map classes to tables        
+mapping = [(Task, 'task'),
+           (Project, 'project'),
+           (Category, 'category'),
+           (ProjectTimeEst, 'project_time_estimate'),
+           (TaskTimeEst, 'task_time_estimate'),
+           (ProjectWikiPage, 'project_wiki_page')]
+
+for pyClass, tableStr in mapping:
+    table = Table(tableStr, meta, autoload=True)
+    mapper(pyClass, table) 
+        
+Session = scoped_session(sessionmaker(bind=engine))
+
+

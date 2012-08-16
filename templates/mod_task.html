@@ -1,0 +1,12 @@
+$def with (addOrEdit,action,formCode)
+<html>
+<head>
+<title>$:addOrEdit Task</title>
+</head>
+<body>
+<h1>$:addOrEdit Task</h1>
+<form action="$:action" method="post">
+$:formCode.render()
+</form>
+</body>
+</html>

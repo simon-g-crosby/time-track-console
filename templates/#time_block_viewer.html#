@@ -1,0 +1,36 @@
+$def with (tbTable)
+<html>
+<head>
+<link href="static/row_colors.css" rel="stylesheet" type="text/css">
+<script src="static/sorttable.js"></script>
+<title></title>
+</head>
+<body>
+<h1></h1>
+
+<a href=
+<table border=1 class="sortable"> 
+    <tr>
+      <th>Id</th>
+      <th>Category</th>
+      <th>Project</th>
+      <th>Task</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Length</th>
+    </tr>
+$for i in tbTable:
+    <tr>
+      <td> $i.time_block_id </td>
+      <td> $i.category_name </td>
+      <td> $i.project_name </td>
+      <td> $i.task_name </td>
+      <td> $i.start_time </td>
+      <td> $i.end_time </td>
+      <td> $i.length </td>
+    </tr>
+</table>
+
+
+</body>
+</html>

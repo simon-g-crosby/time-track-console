@@ -1,0 +1,20 @@
+$def with (unfinishedTasks)
+<html>
+<head>
+  <title>Tasks</title>
+</head>
+<body>
+  <h1>Tasks</h1>
+  <a href="add_task">Add Tasks</a> 
+  <h2>Unfinished Tasks</h2>
+  <table border=1>
+    <tr>
+      <th>Task</th>
+    </tr>
+$for i in unfinishedTasks:
+    <tr>
+      <td> <a href="edit_task?task_id=$i.task_id"> $i.task_name </a> </td>
+    </tr>
+</table>
+</body>
+</html>

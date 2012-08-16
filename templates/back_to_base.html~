@@ -1,0 +1,9 @@
+$def with (projectId)
+<html>
+<head>
+<meta http-equiv="Refresh" content="0;url=view_project?project_id=$projectId&show_active=on" />
+<title></title>
+</head>
+<body>
+</body>
+</html>
